@@ -94,7 +94,6 @@ Implemented as requested:
 Option A: Docker (recommended)
 
 ```bash
-cd /Users/mariathomas/Desktop/recipe
 docker compose up -d
 ```
 
@@ -103,7 +102,6 @@ Option B: Use your local PostgreSQL and create database `recipe_db`.
 ## 2. Backend Setup (FastAPI)
 
 ```bash
-cd /Users/mariathomas/Desktop/recipe/backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -130,7 +128,6 @@ Backend URL: `http://127.0.0.1:8000`
 Use a static server from `frontend` folder:
 
 ```bash
-cd /Users/mariathomas/Desktop/recipe/frontend
 python3 -m http.server 5500
 ```
 
