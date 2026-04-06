@@ -22,7 +22,6 @@ Link: https://recipedatabase.netlify.app/
 
 ## Project Structure
 
-```text
 recipe/
 ├── backend/
 │   ├── database/
